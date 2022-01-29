@@ -7,10 +7,10 @@ api.py is the main file of api app
 ***Test the API:***
 
   **In Postman**
-    1. Use POSTMAN (desktop Agent) for testing the API for local host
+    1. Use POSTMAN for testing the API
     2. Send the data in raw body in POST request to http://ecetushar.pythonanywhere.com/post
     
   **On local machine**
-    1. Open the test_api.py but make sure that local server(api.py) must be running.
+    1. Open the test_api.py.
     2. Send the data in payload and response data will get printed as output.
     
