@@ -1,6 +1,7 @@
 # All_In_One_Store_API
 This API is developed on python-flask.
-**CODE**
+
+***CODE***
 api.py is the main file of api app
 
 ***Test the API:***
