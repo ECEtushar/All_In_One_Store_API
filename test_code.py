@@ -1,6 +1,6 @@
 import requests
 
-url = "http://127.0.0.1:5000/post"
+url = "http://ecetushar.pythonanywhere.com/post"
 
 payload = '''[{
        "item": "Headache pills",
