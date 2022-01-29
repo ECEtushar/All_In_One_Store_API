@@ -45,9 +45,9 @@ def getItems():
 
                 itemDetail = {'Item': cart[i]['item'], 'Price': cart[i]['price'] * cart[i]['quantity'], 'Tax': tax}
 
-                cate = {cart[i]['itemCategory']: itemDetail}
+                
 
-                bill['Category'].append(cate)
+                bill['Category'][0][cart[i]['itemCategory']]=itemDetail
                 price=float((cart[i]['price'] * cart[i]['quantity'])+tax)
                 bill['Total'] += price
 
